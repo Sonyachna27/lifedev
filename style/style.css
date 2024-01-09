@@ -480,6 +480,10 @@ button {
   cursor: pointer;
   font-size: 12px;
 }
+.customers__container-bottom-pagination-count div:hover {
+  background-color: #5932EA;
+  color: #fff;
+}
 
 body {
   font-family: "Poppins";
