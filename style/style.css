@@ -477,12 +477,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #EEE;
   cursor: pointer;
   font-size: 12px;
 }
 .customers__container-bottom-pagination-count div:hover {
   background-color: #5932EA;
   color: #fff;
+  border-color: transparent;
 }
 
 body {
