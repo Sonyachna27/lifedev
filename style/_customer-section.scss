@@ -265,6 +265,10 @@
                         cursor: pointer;
                         font-size: 12px;
                         
+                        &:hover{
+                            background-color: $--navy;
+                            color: #fff;
+                        }
                     }
                 }
             } 
