@@ -266,7 +266,7 @@
                         border: 1px solid #EEE;
                         cursor: pointer;
                         font-size: 12px;
-                        
+                        transition: all .3s ease;
                         &:hover{
                             background-color: $--navy;
                             color: #fff;
