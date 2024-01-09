@@ -1,0 +1,23 @@
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   margin-bottom: 51px;
+
+   &__container{
+    
+            &-title{
+                color: #000;
+                max-width: 176px;
+                width: 100%;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                @media screen and (max-width:367px) {
+                    font-size: 18px;
+                    white-space: wrap;
+                }
+        }
+        }
+}

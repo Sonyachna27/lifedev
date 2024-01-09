@@ -1,0 +1,112 @@
+.header{
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.50);
+    background-color: #fff;
+    padding-top: 36px;
+    width: 306px;
+    min-height: 100%;
+    transition: all .3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    
+    // @media screen and (max-width:1023px) {
+    //     width: 70px;
+        
+    // }
+        &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100%;
+        gap: 64px;
+
+        & nav {
+            & ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 100%;
+                & li{
+                    padding: 11px;
+                    display: flex;
+                    gap: 14px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -0.14px;
+                    color: $--dark-gray;
+                    width: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: .3s;
+                    @media (pointer: fine) {
+                        &:hover{
+                            background-color: $--navy;
+                            color: #fff;
+                            svg path{
+                                stroke: #fff;
+                            }
+                        }
+                    }
+                    & svg{
+                        min-width: 24px;
+
+                        & path {
+                            stroke:rgb(145, 151, 179);
+                        }
+                        
+                        &:nth-of-type(2){
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+        &-author{
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+         
+           
+            & img{
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                
+            }
+          & span{
+                color: $--black;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.14px;
+                transition: all .3s ease;
+                opacity: 1;
+            }
+          & p{
+            color: #757575;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.12px;
+            transition: all .3s ease;
+            opacity: 1;
+            }
+        }
+        }
+}
+
