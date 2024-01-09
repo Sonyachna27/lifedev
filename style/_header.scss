@@ -14,11 +14,6 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     overflow: hidden;
-    
-    // @media screen and (max-width:1023px) {
-    //     width: 70px;
-        
-    // }
         &__container{
         display: flex;
         flex-direction: column;

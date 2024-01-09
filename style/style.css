@@ -481,6 +481,7 @@ button {
   border: 1px solid #EEE;
   cursor: pointer;
   font-size: 12px;
+  transition: all 0.3s ease;
 }
 .customers__container-bottom-pagination-count div:hover {
   background-color: #5932EA;
@@ -515,6 +516,7 @@ body {
   min-height: 100vh;
   transition: all 0.5s ease;
   background-color: #FAFBFF;
+  overflow: hidden;
 }
 @media screen and (max-width: 1023px) {
   .main {
@@ -524,6 +526,7 @@ body {
   .main.active {
     left: 306px;
     width: calc(100% - 306px);
+    max-width: 100%;
   }
 }
 
